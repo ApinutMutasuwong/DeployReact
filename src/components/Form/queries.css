@@ -1,0 +1,26 @@
+@media only screen and (max-width: 700px) {
+  .Toilet-info-container {
+    grid-template-columns: 1fr;
+  }
+
+  .info-photo {
+    grid-row: 3;
+    grid-column: 1/2;
+  }
+
+  .photo-input {
+    height: auto !important;
+  }
+
+  .Toilet-info-container img {
+    width: 40%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+    overflow-x: hidden;
+  }
+}
